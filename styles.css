@@ -1,0 +1,165 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.grey-background{
+    background-color: #1f2937;
+    padding: 16px 200px;
+    color: #F9FAF8;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 5em;
+}
+
+.navbar .left{
+    font-size: 24px;
+}
+.navbar .right{
+
+    font-size: 12px;
+}
+
+.welcome{
+    padding: 5em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+.welcome .left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero-main-text{
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.welcome button{
+    border: none;
+}
+
+
+.welcome .right{
+    flex-shrink: 0;
+    width: 50%;
+}
+
+
+.welcome .right img{
+    width: 100%;
+    height: auto;
+    object-fit: scale-down;
+}
+
+
+.body{
+    background-color: #F9FAF8;
+    padding: 16px 200px;
+}
+
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pictures{
+    flex: 1;
+}
+
+
+h2{
+    text-align: center;
+}
+
+
+img, .pictures p{
+    float: top;
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
+
+}
+
+img{
+    border-radius: 10px;
+    border: 5px solid lightblue;
+}
+
+
+button {
+    padding: 6px 1em;
+    width: 120px;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+ul{
+    flex: 1;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.secondary,a, .sign-up .left strong{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.quote{
+    background-color: #d4dbe6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px 200px;
+    font-size: 36px;
+}
+
+.quote .strong{
+    margin: 0;
+    text-align: end;
+}
+
+.footer{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+}
+
+.call-out{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    margin: auto;
+
+}
+
+.sign-up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 3em;
+}
+.sign-up .left{
+    display: flex;
+    flex-direction: column;
+    
+}
