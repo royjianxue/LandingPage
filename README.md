@@ -7,3 +7,7 @@ Language used:
 
         - HTML: basic html elements.
         - CSS: Flexbox flexbox flexbox :) 
+        
+08/13/2022:
+
+Adding calculator project: HTML, CSS & Javascript
