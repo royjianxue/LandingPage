@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="myCalculatorStyles.css">
+
+    <title>Calculator</title>
+</head>
+<body>
+    <main class="main">   
+        <div class="calculator">
+            <div class="screen">
+                <div class="top-screen" id="historyoperation"></div>
+                <div class="bottom-screen" id="currentoperation"></div>
+            </div>
+            <div class="buttons">
+                <div class="error-btn">
+                    <button class="reset-btn">RESET</button>
+                    <button class="delete-btn">DELETE</button>
+                </div>
+                <div class="buttons-grids">
+                    <button class="btn" >7</button>
+                    <button class="btn">8</button>
+                    <button class="btn">9</button>
+                    <button class="btn-operator">/</button>
+                    <button class="btn">4</button>
+                    <button class="btn">5</button>
+                    <button class="btn">6</button>
+                    <button class="btn-operator">*</button>
+                    <button class="btn">1</button>
+                    <button class="btn">2</button>
+                    <button class="btn">3</button>
+                    <button class="btn-operator">-</button>
+                    <button id="btn-dot">.</button>
+                    <button class="btn">0</button>
+                    <button class="btn-operator-equal">=</button>
+                    <button class="btn-operator">+</button>    
+                </div>
+
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <p>
+            Copyright &copy
+            <script>document.write(new Date().getFullYear())</script>
+            Roy Xue
+        </p>
+    </footer>
+
+</body>
+<script src="myCalculatorScript.js"></script>
+</html>
